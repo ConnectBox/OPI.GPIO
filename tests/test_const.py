@@ -4,11 +4,11 @@
 # See LICENSE.rst for details.
 
 """
-Tests for the :py:mod:`OPi.constants` module.
+Tests for the :py:mod:`RPi.constants` module.
 """
 
 import pytest
-import OPi.constants as constants
+import RPi.constants as constants
 
 
 def test_constants_cant_be_remapped():

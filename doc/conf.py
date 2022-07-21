@@ -64,7 +64,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'OPi.GPIO: Orange Pi Zero RPi.GPIO compatibility library'
+project = 'RPi.GPIO: OrangePi RPi.GPIO compatibility library'
 author = 'Richard Hull and contributors'
 copyright = u'{0}, {1}'.format(datetime.now().year, author)
 
@@ -247,7 +247,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OPi.GPIO'
+htmlhelp_basename = 'RPi.GPIO.OrangePi'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -273,7 +273,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'OPi.GPIO.tex', 'OPi.GPIO Documentation',
+    (master_doc, 'RPi.GPIO.tex', 'RPi.GPIO Documentation for OrangePi',
      author, 'manual'),
 ]
 
@@ -315,7 +315,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'OPi.GPIO', 'OPi.GPIO Documentation',
+    (master_doc, 'RPi.GPIO', 'RPi.GPIO Documentation for OrangePi',
      [author], 1)
 ]
 
@@ -330,7 +330,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'OPi.GPIO', 'OPi.GPIO Documentation',
+    (master_doc, 'RPi.GPIO', 'RPi.GPIO Documentation for OrangePi',
      author, 'OPi.GPIO', project,
      'Miscellaneous'),
 ]

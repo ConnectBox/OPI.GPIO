@@ -1,4 +1,4 @@
-OPi.GPIO
+RPi.GPIO
 =========
 .. image:: https://travis-ci.org/rm-hull/OPi.GPIO.svg?branch=master
    :target: https://travis-ci.org/rm-hull/OPi.GPIO
@@ -14,9 +14,9 @@ OPi.GPIO
 .. image:: https://img.shields.io/pypi/v/OPi.GPIO.svg
    :target: https://pypi.python.org/pypi/OPi.GPIO
 
-OPi-GPIO is a drop-in replacement library for `RPi.GPIO
-<https://sourceforge.net/projects/raspberry-gpio-python/>`_ for the Orange Pi
-Zero and other SBCs. Only the basic GPIO functions are replicated, using 
+RPi-GPIO is a drop-in replacement library for `RPi.GPIO but for OrangePi
+<https://sourceforge.net/projects/raspberry-gpio-python/>`_ for the OrangePi
+and other SBCs. Only the basic GPIO functions are replicated, using 
 sysfs: this allows the GPIO pins to be accessed from user space.
 
 .. toctree::

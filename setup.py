@@ -21,7 +21,7 @@ pytest_runner = ['pytest-runner'] if needs_pytest else []
 test_deps = ["mock", "pytest", "pytest-cov", "pyfakefs"]
 
 setup(
-    name="OPi.GPIO",
+    name="RPi.GPIO",
     version=version,
     author="Richard Hull",
     author_email="richard.hull@destructuring-bind.org",

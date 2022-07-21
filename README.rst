@@ -1,4 +1,4 @@
-OPi.GPIO
+RPi.GPIO
 ========
 
 .. image:: https://travis-ci.org/rm-hull/OPi.GPIO.svg?branch=master

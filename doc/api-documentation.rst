@@ -1,6 +1,6 @@
 API Documentation
 -----------------
-.. automodule:: OPi.GPIO
+.. automodule:: RPi.GPIO.OrangPi
     :members:
     :undoc-members:
     :show-inheritance:
