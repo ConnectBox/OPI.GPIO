@@ -10,7 +10,7 @@ Usage:
 
 .. code:: python
    import nanopi.neocore2
-   from OPi import GPIO
+   from RPi import GPIO
 
    GPIO.setmode(nanopi.neocore2.BOARD) or GPIO.setmode(nanopi.neocore2.BCM)
 """

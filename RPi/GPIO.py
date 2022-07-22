@@ -5,11 +5,11 @@
 """
 Importing the module
 --------------------
-To import the OPi.GPIO module:
+To import the RPi.GPIO module:
 
 .. code:: python
 
-   import OPi.GPIO as GPIO
+   import RPi.GPIO as GPIO
 
 By doing it this way, you can refer to it as just GPIO through the rest of your
 script.
@@ -64,7 +64,7 @@ To get round this, we use a pull up or a pull down resistor. In this way, the
 default value of the input can be set. It is possible to have pull up/down
 resistors in hardware and using software. In hardware, a 10K resistor between
 the input channel and 3.3V (pull-up) or 0V (pull-down) is commonly used. The
-OPi.GPIO module allows you to configure the SOC to do this in software:
+RPi.GPIO module allows you to configure the SOC to do this in software:
 
 .. code:: python
 
@@ -110,7 +110,7 @@ there are two ways to get round this:
 
 Threaded Callbacks
 ^^^^^^^^^^^^^^^^^^
-OPi.GPIO manages a number of secondary threads for callback functions. This
+RPi.GPIO manages a number of secondary threads for callback functions. This
 means that callback functions can be run at the same time as your main program,
 in immediate response to an edge.
 
@@ -185,11 +185,11 @@ possible to stop them:
 
 Outputs
 -------
-1. First set up OPi.GPIO
+1. First set up RPi.GPIO
 
     .. code:: python
 
-       import OPi.GPIO as GPIO
+       import RPi.GPIO as GPIO
        GPIO.setmode(GPIO.BOARD)
        GPIO.setup(12, GPIO.OUT)
 
@@ -243,11 +243,11 @@ result in more accurate PWM signal that is less resorce taxing.
 
 PWM is created in the form of an object.
 
-1. First set up OPi.GPIO and create the object
+1. First set up RPi.GPIO and create the object
 
     .. code:: python
 
-       import OPi.GPIO as GPIO
+       import RPi.GPIO as GPIO
        PWM_Class = GPIO.PWM(PWM_chip, PWM_pin, frequency_Hz, Duty_Cycle_Percent)
 
     Note currently you do not need to specify setmode before creating the class as for a GPIO
@@ -334,7 +334,7 @@ chip number used in PWM_chip. Some boards may have multiple chips, they will all
 This writes '0' to the file 'export' which is under pwmchip0. If the chip has a pin 0 associated with it, an object that will
 be created that can control the pwm pin. If a pin doesn't exisit an error will come up stating 'no such device'.
 As of yet I do not know how to list out all of the available pins associated with a chip, there is a list at https://linux-sunxi.org/PIO
-however not all pwm pins listed might be readily usable. For example on the OPi PC+ GPIO PA5 (physical pin 7) is listed as being PWM1 however it
+however not all pwm pins listed might be readily usable. For example on the RPi PC+ GPIO PA5 (physical pin 7) is listed as being PWM1 however it
 is not accessable by default, likely it is reserved for something else and would probably require changing the DTC file before it can be accessed.
 
 The best option would be to increase the number until you find a pin. You shouldn't need to go higher than 5 for any 1 chip.
@@ -661,7 +661,7 @@ def __wrap(callback, channel):
 def cleanup(channel=None):
     """
     At the end any program, it is good practice to clean up any resources you
-    might have used. This is no different with OPi.GPIO. By returning all
+    might have used. This is no different with RPi.GPIO. By returning all
     channels you have used back to inputs with no pull up/down, you can avoid
     accidental damage to your Orange Pi by shorting out the pins. Note that
     this will only clean up GPIO channels that your script has used. Note that

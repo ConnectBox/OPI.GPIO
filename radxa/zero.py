@@ -10,7 +10,7 @@ Usage:
 
 .. code:: python
    import radxa.zero
-   from OPi import GPIO
+   from RPi import GPIO
 
    GPIO.setmode(radxa.zero.BOARD) or GPIO.setmode(radxa.zero.BCM)
 """

@@ -11,7 +11,7 @@ Usage:
 
 .. code:: python
    import orangepi.r1
-   from OPi import GPIO
+   from RPi import GPIO
 
    GPIO.setmode(orangepi.r1.BOARD) or GPIO.setmode(orangepi.r1.BCM)
 """

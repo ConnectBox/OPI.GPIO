@@ -10,7 +10,7 @@ Usage:
 
 .. code:: python
    import nanopi.duo
-   from OPi import GPIO
+   from RPi import GPIO
 
    GPIO.setmode(nanopi.duo.BOARD)
 """

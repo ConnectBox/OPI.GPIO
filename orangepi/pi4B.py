@@ -10,7 +10,7 @@ Usage:
 
 .. code:: python
    import orangepi.4B
-   from OPi import GPIO
+   from RPi import GPIO
 
    GPIO.setmode(orangepi.4B.BOARD) or GPIO.setmode(orangepi.plus4B.BCM)
 """

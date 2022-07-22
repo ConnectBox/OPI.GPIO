@@ -10,7 +10,7 @@ Usage:
 
 .. code:: python
    import nanopi.m4
-   from OPi import GPIO
+   from RPi import GPIO
 
    GPIO.setmode(nanopi.m4.BOARD) or GPIO.setmode(nanopi.m4.BCM)
 """

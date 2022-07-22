@@ -8,7 +8,7 @@ Alternative pin mappings for Orange PI Zero2
 Usage:
 .. code:: python
    import orangepi.zero2
-   from OPi import GPIO
+   from RPi import GPIO
    GPIO.setmode(orangepi.zero2.BOARD)
 """
 

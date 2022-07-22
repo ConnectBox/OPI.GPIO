@@ -1,6 +1,9 @@
 RPi.GPIO
 ========
 
+.. images:: https://ConnectBox/RPi.GPIO.svg?branch=master
+   :target  https://ConnectBox/RPi.GPIO
+
 .. image:: https://travis-ci.org/rm-hull/OPi.GPIO.svg?branch=master
    :target: https://travis-ci.org/rm-hull/OPi.GPIO
 

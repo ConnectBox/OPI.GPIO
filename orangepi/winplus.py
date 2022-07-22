@@ -7,7 +7,7 @@ Usage:
 
 .. code:: python
    import orangepi.winplus
-   from OPi import GPIO
+   from RPi import GPIO
 
    GPIO.setmode(orangepi.winplus.BOARD)
 """

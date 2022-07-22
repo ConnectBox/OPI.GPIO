@@ -10,7 +10,7 @@ Usage:
 
 .. code:: python
    import rockpi.s
-   from OPi import GPIO
+   from RPi import GPIO
 
    GPIO.setmode(rockpi.s.BOARD)
 """

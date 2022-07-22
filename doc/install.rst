@@ -6,9 +6,9 @@ Installation
    instructions below.
 
 Install the latest version of the library directly from
-`PyPI <https://pypi.python.org/pypi?:action=display&name=OPi.GPIO>`_::
+`PyPI <https://pypi.python.org/pypi?:action=display&name=RPi.GPIO>`_::
 
-  $ sudo pip install --upgrade OPi.GPIO
+  $ sudo pip install --upgrade RPi.GPIO
   
 Non Root Access
 ---------------
@@ -30,4 +30,4 @@ Enter the following into Nano:
 
 Press ``ctrl-x``, ``Y``, and ``ENTER`` to save and close the file. 
 
-Finally, reboot and you should be ready to use ``OPi.GPIO`` as a non root user. 
+Finally, reboot and you should be ready to use ``RPi.GPIO`` as a non root user. 
